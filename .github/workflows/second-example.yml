@@ -6,3 +6,5 @@ jobs:
          steps:
             - name: Welcom message
               run: echo "hello world"
+            - name: Read file
+              run: cat README.md
