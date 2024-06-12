@@ -6,5 +6,7 @@ jobs:
          steps:
             - name: Welcom message
               run: echo "hello world"
+            - name: checkout repo
+              uses: actions/checkout@v4
             - name: Read file
               run: cat README.md
